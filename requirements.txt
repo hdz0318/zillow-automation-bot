@@ -1,0 +1,16 @@
+# Zillow自动化机器人依赖库
+# 主要版本 (zillow_undetected_bot.py) 依赖
+undetected-chromedriver>=3.5.0
+selenium>=4.0.0
+
+# 备用版本 (zillow_selenium_bot.py) 额外依赖
+# selenium>=4.0.0  # 已包含在上面
+
+# Playwright版本 (zillow_bot.py) 额外依赖
+# 如果需要使用Playwright版本，请取消下面的注释
+# playwright>=1.30.0
+
+# 其他依赖（Python内置库，无需安装）
+# random
+# time
+# threading 
